@@ -11,7 +11,7 @@ import AChristmasCarol from '../img/BrandVendor/Z18AChristmasCarol.jpg'
 
 const setting = {
   width: '700px',
-  height: ['450px', '170px'],
+  height: ['380px', '170px'],
   layout: [1, 4],
   photos: [
     { source: MacysDowntownDazzle },
