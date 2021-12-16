@@ -588,12 +588,10 @@ img.card-img-top{
 /* -------- Contact -------- */
 
 
-.banner-contact-sub{
-  background-image: url(https://photos.com/featured/cincinnati-skyline-from-top-of-roebling-adam-jones.html);
-  background-position: 100%;
-  background-size: 60%;
-  max-height: 450px !important;
-  width: 100%;
+.contact-header{
+  font-weight: bolder;
+  font-size:60px !important;
+  margin-top: 50px !important;
 }
 
 
@@ -628,8 +626,17 @@ div.col-sm{
   margin: auto;
   display: flex;
   flex-wrap: wrap;
+  height: 690px !important;
 }
-
+#about-main{
+  margin-top: 30px;
+ 
+}
+.about-button{
+  margin-top: 25px !important;
+  background-color: lightseagreen;
+  text-transform:none !important;
+}
 
 /* -------- Main Footer -------- */
 

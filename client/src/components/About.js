@@ -18,7 +18,7 @@ class About extends Component {
 
       {/* About */}
 
-        <div className="container-fluid">
+        <div id="about-main" className="container-fluid">
           <div  id='about-sub' className=" justify-content-evenly">
             <div className="col-sm">
             
@@ -27,16 +27,15 @@ class About extends Component {
               
              {/* comment */}
               <p className="about-main-buttn center">
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Click Me
+                <a class="btn about-button btn-primary" data-bs-toggle="collapse" href="#about-about" role="button" aria-expanded="false" aria-controls="about-about">
+                  More Info
                 </a>
 
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="about-about">
                 <div class="card card-body">
+                Cincinnati Destination is the official destination marketing organization for Cincinnati, Ohio. We increases the number of visitors, the number of nights they stay and the number of things they do. These marketing efforts also enhance the quality of life and sense of pride for residents. 
 
-
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
                 </div>
               </div>
             </div>
@@ -47,14 +46,14 @@ class About extends Component {
               
              
               <p className="about-main-buttn center">
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Click Me
+                <a class="btn about-button btn-primary" data-bs-toggle="collapse" href="#about-mission" role="button" aria-expanded="false" aria-controls="about-mission">
+                  More Info
                 </a>
 
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="about-mission">
                 <div class="card card-body">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                Our mission is to bring regional, national, and international business and leisure visitors to Cincinnati for the economic benefit of the city, the community, and our membership — while being an advocate for the tourism industry and our partners.
                 </div>
               </div>
             </div>
@@ -64,14 +63,16 @@ class About extends Component {
               
              
               <p className="about-main-buttn center">
-                <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  Click Me
+                <a class="btn btn-primary about-button" data-bs-toggle="collapse" href="#about-team" role="button" aria-expanded="false" aria-controls="about-team">
+                  More Info
                 </a>
 
               </p>
-              <div class="collapse" id="collapseExample">
+              <div class="collapse" id="about-team">
                 <div class="card card-body">
-                  Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+                We’ll make you feel right at home in Cincinnati.
+
+                Our experienced team is here to support our partners and groups across the tourism industry. Whether you’re a visitor, meeting planner, or travel professional, we can help to connect you to the right resources.
                 </div>
               </div>
             </div>

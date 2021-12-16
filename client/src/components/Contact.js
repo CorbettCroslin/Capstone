@@ -15,7 +15,7 @@ class Contact extends Component {
       </div>
       <br />
       <div className="justify-content-center">
-        <h1>Contact Us</h1>
+        <h1 className="contact-header">Contact Us</h1>
       </div>
 
 
@@ -47,7 +47,7 @@ class Contact extends Component {
               <div class="form-row">
                 <div class="form-group col-md-6">
                   <label for="inputCity">City</label>
-                  <input type="text" class="form-control" id="inputCity" />
+                  <input type="text" class="form-control" placeholder="City" id="inputCity" />
                 </div>
                 <div class="form-group col-md-4">
                   <label for="inputState">State</label>
@@ -60,7 +60,7 @@ class Contact extends Component {
                 </div>
                 <div class="form-group col-md-2">
                   <label for="inputZip">Zip</label>
-                  <input type="text" class="form-control" id="inputZip" />
+                  <input type="text" class="form-control" placeholder="00000" id="inputZip" />
                 </div>
               </div>
               <div class="form-group">
