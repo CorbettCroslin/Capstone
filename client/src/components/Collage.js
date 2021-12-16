@@ -12,7 +12,6 @@ import AChristmasCarol from '../img/BrandVendor/Z18AChristmasCarol.jpg'
 const setting = {
   width: '700px',
   height: ['380px', '170px'],
-  // height_position: ['100%', '180%'],
   layout: [1, 4],
   photos: [
     { source: MacysDowntownDazzle },
@@ -22,8 +21,6 @@ const setting = {
     { source: AChristmasCarol },
     { source: ElvesOnElder },
   ], 
-
-
   showNumOfRemainingPhotos: true
 };
 

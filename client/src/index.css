@@ -245,7 +245,9 @@ left:0;
 vertical-align: baseline;
 }
 
-
+.row:after{
+  content: ''
+}
 
 /* -------- Home // Collage -------- */
 
@@ -274,6 +276,12 @@ button.css-xfk84m.css-1ycyyax{
 button.css-1h82jk3.css-1ycyyax{
   background-color: rgb(0, 105, 0);
 }
+/* localhost pics */
+/* main pic */
+div.cBugmf{
+  background-size: 120% !important;
+}
+/* thumb pics */
 div.dhaQqD{
   background-position: 100%;
   background-size: 220%;
@@ -290,9 +298,23 @@ div.choGY{
   background-position: 100%;
   background-size: 220%;
 }
-
-.fExVVr{
-  background-size: 330% !important;
+/* server pics*/
+/* main pic */
+div.EMLKl{
+  background-size: 120% !important;
+}
+/* thumb pics */
+div.fExVVr{
+  background-size: 220% !important;
+}
+div.gMfdLK{
+  background-size: 220% !important;
+}
+div.bbrAXV{
+  background-size: 220% !important;
+}
+div.imdJqC{
+  background-size: 220% !important;
 }
 /* -------- Home // Widget -------- */
 
@@ -578,14 +600,14 @@ img.card-img-top{
 /* -------- About -------- */
 
 
-.about-sub-collage{
+/* .about-sub-collage{
   background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F476044623087341203%2F&psig=AOvVaw3st2w9QyczCfNuxNkvZgra&ust=1638909154513000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCi2cuC0PQCFQAAAAAdAAAAABAD);
   background-position: 100%;
   background-size: 60%;
   max-height: 500px !important;
   width: 100%;
 
-}
+} */
 
 .contact-form{
   margin-top: 100px;
@@ -610,6 +632,8 @@ div.col-sm{
 #about-sub{
   justify-content: center;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 
