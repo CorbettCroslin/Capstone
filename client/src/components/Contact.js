@@ -60,7 +60,7 @@ class Contact extends Component {
                 </div>
                 <div class="form-group col-md-2">
                   <label for="inputZip">Zip</label>
-                  <input type="text" class="form-control" placeholder="00000" id="inputZip" />
+                  <input type="text" class="form-control" placeholder="12345" id="inputZip" />
                 </div>
               </div>
               <div class="form-group">
