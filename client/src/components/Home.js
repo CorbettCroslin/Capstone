@@ -42,9 +42,11 @@ class Home extends Component{
               {/* email sign up */}
               <div className="signup-contain text-center">
                 <div className="signup-sub">
-                  <p className="signup-header">Sign Up Today!</p>
-                  <p className="signup-text">To keep up with the most current events happening in Cincinnati!</p>
-                  <p className="email-icon bi bi-envelope"></p>
+                  <a className="nav-links" href="#">
+                    <p className="signup-header">Sign Up Today!</p>
+                    <p className="signup-text">To keep up with the most current events happening in Cincinnati!</p>
+                    <p className="email-icon bi bi-envelope"></p>
+                  </a>
                 </div>
               </div>
               {/* weather widget */}
