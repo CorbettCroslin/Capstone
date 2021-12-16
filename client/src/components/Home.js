@@ -29,24 +29,27 @@ class Home extends Component{
 
             <Collage/>
 
-        {/* Widgets */}
+        {/* Widgets & Email Sign Up */}
 
         <div className="container-fluid">
-          <div className="row">
-              <div className="home-travel-wid col-4 d-flex justify-content-center text-center">
+          <div id="home-widgets-email">
+              <div className="home-travel-widget justify-content-evenly">
+                {/* travel widget */}
                 <div className="travel-bg rounded">
                   <iframe id="widgetIframe" src="https://www.expedia.com/marketing/widgets/searchform/widget?wtt=4&tp1=0000000&tp2=0000000&lob=H,FH,F&des=cincinnati, oh&wbi=2&olc=000000&whf=4&hfc=C7C7C7&wif=4&ifc=000000&wbc=FFCB00&wbf=4&bfc=3D3100&wws=1&sfs=H600FW300F&langid=1033" width="100%" height="100%" scrolling="no" frameBorder="0"></iframe>
                 </div>
               </div>
-              <div className="signup-contain col-4 d-flex justify-content-center text-center">
+              {/* email sign up */}
+              <div className="signup-contain text-center">
                 <div className="signup-sub">
                   <p className="signup-header">Sign Up Today!</p>
                   <p className="signup-text">To keep up with the most current events happening in Cincinnati!</p>
                   <p className="email-icon bi bi-envelope"></p>
                 </div>
               </div>
-              <div className="col-4 d-flex justify-content-center text-center">
-                <div className="weather-bg rounded">
+              {/* weather widget */}
+              <div className="weather-widget justify-content-evenly">
+                <div id="widgetWeather" className="weather-bg rounded">
                   <a className="weatherwidget-io" id="widgetWeather" href="https://forecast7.com/en/39d10n84d51/cincinnati/?unit=us" data-label_1="CINCINNATI" data-label_2="WEATHER" data-theme="original" >CINCINNATI WEATHER</a>
                 </div>
               </div>
