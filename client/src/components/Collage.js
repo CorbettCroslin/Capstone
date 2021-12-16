@@ -29,7 +29,8 @@ const setting = {
 const Collage = () => {
   return (
     <div className="home-photo-collage d-flex justify-content-center container-fluid">
-    <div className="home-sub-collage row d-flex justify-content-center text-center align-items-center min-vh-100git">
+    <div className="home-sub-collage row d-flex justify-content-center text-center align-items-center min-vh-100git rounded">
+      <h4>Cincinnati's Holiday Events</h4>
       <ReactPhotoCollage {...setting} />
     </div>
   </div>

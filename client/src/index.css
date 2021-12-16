@@ -37,17 +37,21 @@ div.dropdown-menu{
   line-height: 2.3;
   vertical-align: middle;
 }
-
 .home .post img{
   position: absolute;
   top: 20px;
   left: -100px;
   opacity: .6;
 }
-
 .home .post {
   overflow: hidden;
   padding-left: 80px;
+}
+a{
+  color: white !important;
+}
+a:hover{
+  color: #0000E0 !important;
 }
 
 
@@ -182,7 +186,7 @@ div.dropdown-menu{
 .video-container{
   position: relative;
   top: 0;
-  min-height:590px !important;
+  min-height:650px !important;
   padding: 0 !important;
   margin: 0 !important;
   margin-bottom: 50px !important;
@@ -265,22 +269,33 @@ vertical-align: baseline;
   content: ''
 }
 
+
 /* -------- Home // Collage -------- */
 
+
+h4{
+  color: white;
+  font-size: 55px !important;
+  font-weight: bolder;
+  margin: 0 !important;
+  text-shadow: 3px 3px black;
+}
 .home-photo-collage{
   width: 100%;
   margin-bottom: 100px !important;
 
 }
 .home-sub-collage{
-  background-image: url('https://www.wallpapertip.com/wmimgs/89-899187_red-plaid-wallpaper-christmas-plaid-wallpaper-iphone.png');
+  background-image: url('./img/PlaidBG.png');
   background-position: 100%;
-  background-size: 60%;
-  min-height: 660px !important;
+  background-size: 100%;
+  min-height: 690px !important;
   max-height: 750px !important;
   width: 85%;
 }
-
+div.sc-bdvvtL{
+  margin-bottom: 50px;
+}
 nav.react-images__navigation{
   background-color: transparent !important;
 }
@@ -332,28 +347,91 @@ div.bbrAXV{
 div.imdJqC{
   background-size: 220% !important;
 }
-/* -------- Home // Widget -------- */
+
+
+/* -------- Home // Widget & Map-------- */
+
+
 
 #widgetIframe{
-
+  margin-top: 50px;
   width:375px;
   height:520px;
 }
-
+.travel-bg{
+  /* background-color: rgb(236, 236, 236); */
+  width: 475px;
+  height: 620px;
+  
+}
 #widgetWeather{
   justify-content: center ;
+  margin-top: 50px;
+  margin-left: 50px;
   width:300px;
   height:520px;
 }
-
+.weather-bg{
+  /* background-color: rgb(236, 236, 236); */
+  width: 400px;
+  height: 620px;
+}
+h3{
+  font-size: 50px !important;
+  font-weight: bold;
+  margin: 0 !important;
+}
 .home-map-cinci{
   width: 700px;
   height: auto;
-  margin-top: 50px;
+  margin-top: 5px;
   border: #88dacf;
   border-width: 8px;
   border-style:ridge;
 }
+.home-map-sub{
+  background-color: rgb(236, 236, 236);
+  width: 85%;
+  height:575px;
+}
+.home-map-contain{
+  margin-top: 50px;
+}
+
+
+/* -------- Home // Email Sign Up-------- */
+
+
+.signup-sub{
+  background-image: url('./img/NewProject.jpg');
+  border-radius: 50%;
+  height: 355px;
+  width: 355px;
+  margin-top: 120px;
+  border-color: rgb(0, 0, 19) !important;
+  border-width: 10px !important;
+  border-style: solid !important;
+}
+.signup-header{
+  color: white;
+  font-size: 40px;
+  font-weight: bolder;
+  margin-top: 70px;
+}
+.signup-text{
+  color: white;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+.email-icon{
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0;
+  
+}
+
 
 
 /* --- Cards: Arts & Music/Food & Drinks/Entertainment & Sports --- */
@@ -522,14 +600,19 @@ img.card-img-top{
 
 .awards-contain{
   margin-top: 30px;
-  margin-bottom: 150px;
+  margin-bottom: 100px;
+  
 }
-
+.awards-contain-sub{
+  width: 85%;
+  background-color: rgb(236, 236, 236);
+}
 .awards-img{
- width: 85% ;
+ width: 75% ;
  height: auto;
  margin: auto;
 }
+
 
 
 /* -------- Arts & Music -------- */
@@ -726,13 +809,7 @@ div.col-sm{
 .footer-social-bott-links{
   font-size: 40px !important;
   margin-left: 30px;
-  /* color: white !important; */
-}
-a{
-  color: white !important;
-}
-a:hover{
-  color: #0000E0 !important;
+
 }
 
 .footer-links-ul{
