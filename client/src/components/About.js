@@ -19,7 +19,7 @@ class About extends Component {
       {/* About */}
 
         <div className="container-fluid">
-          <div  id='about-sub' className="row justify-content-evenly w-100">
+          <div  id='about-sub' className="row justify-content-evenly">
             <div className="col-sm">
             
               <h2>About<br />Us</h2> 
