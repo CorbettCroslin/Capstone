@@ -25,7 +25,7 @@ class About extends Component {
               <h2>About<br />Us</h2> 
               <img className="about-main-pics" src={aboutPic} alt="..." />
               
-             
+             {/* comment */}
               <p className="about-main-buttn center">
                 <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                   Click Me
