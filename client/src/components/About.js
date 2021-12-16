@@ -22,7 +22,7 @@ class About extends Component {
           <div  id='about-sub' className=" justify-content-evenly">
             <div className="col-sm">
             
-              <h2>About<br />Us</h2> 
+              <h2 className="about-htwo-header">About<br />Us</h2> 
               <img className="about-main-pics" src={aboutPic} alt="..." />
               
              {/* comment */}
@@ -40,7 +40,7 @@ class About extends Component {
               </div>
             </div>
             <div className="col-sm">
-              <h2>Mission Statement</h2>
+              <h2 className="about-htwo-header">Mission Statement</h2>
               
               <img className="about-main-pics" src={missionPic} alt="..." />
               
@@ -58,7 +58,7 @@ class About extends Component {
               </div>
             </div>
             <div className="col-sm">
-              <h2>Meet the Team</h2>
+              <h2 className="about-htwo-header">Meet the Team</h2>
               <img className="about-main-pics" src={teamPic} alt="..." />
               
              

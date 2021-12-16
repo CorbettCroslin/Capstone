@@ -58,7 +58,7 @@ class Home extends Component{
               {/* Map */}
               <div className="home-map-contain col-12 d-flex justify-content-center text-center">
                 <div className="home-map-sub rounded">
-                  <h3>Cincinnati Neighborhood Map</h3>
+                  <h3 className="map-header">Cincinnati Neighborhood Map</h3>
                   <img className="home-map-cinci" src={HomeMapCinci} alt="Map of Cincinnati" />
                 </div>
               </div>

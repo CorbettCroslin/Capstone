@@ -273,7 +273,7 @@ vertical-align: baseline;
 /* -------- Home // Collage -------- */
 
 
-h4{
+.collage-header{
   color: white;
   font-size: 55px !important;
   font-weight: bolder;
@@ -370,7 +370,7 @@ div.imdJqC{
   height:520px;
 }
 
-h3{
+.map-header{
   font-size: 50px !important;
   font-weight: bold;
   margin: 0 !important;
@@ -433,13 +433,16 @@ h3{
 
 .card-main-contain{
   justify-content: center !important;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .card-main{
-  width: 480px !important;
+  width: 460px !important;
   height: 700px !important;
   margin-right: 30px !important;
   margin-left: 30px !important;
+
 }
 .card-img{
  width: 425px !important;
@@ -690,7 +693,7 @@ img.card-img-top{
 
 /* -------- About -------- */
 
-h2{
+.about-htwo-header{
   margin-left: 20px !important;
 }
 
