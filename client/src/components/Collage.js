@@ -1,6 +1,6 @@
 import React from 'react'
 import { ReactPhotoCollage } from 'react-photo-collage';
-import MacysDowntownDazzle from '../img/BrandVendor/Z14MacysDowntownDazzle.jpg'
+import MacysDowntownDazzle from '../img/CincyDowntownDazzle.png'
 import ElvesOnElder from '../img/BrandVendor/Z13ElvesOnElder.jpg'
 import ChristmasNightOfLights from '../img/BrandVendor/Z15ChristmasNightOfLights.jpg'
 import HolidayTrains from '../img/BrandVendor/Z16HolidayTrains.jpg'
@@ -12,6 +12,7 @@ import AChristmasCarol from '../img/BrandVendor/Z18AChristmasCarol.jpg'
 const setting = {
   width: '700px',
   height: ['380px', '170px'],
+  // height_position: ['100%', '180%'],
   layout: [1, 4],
   photos: [
     { source: MacysDowntownDazzle },
@@ -21,6 +22,7 @@ const setting = {
     { source: AChristmasCarol },
     { source: ElvesOnElder },
   ], 
+
 
   showNumOfRemainingPhotos: true
 };
