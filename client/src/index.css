@@ -14,12 +14,28 @@ code {
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif;
 }
 
+.nav-drop-links{
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  height: 40px !important;
+}
+
 .nav-links:hover{
   background-color: transparent !important;
 }
-
+.nav-drop-links:hover{
+  background-color: transparent !important;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
 Link{
   background-color: transparent !important;
+}
+div.dropdown-menu{
+  margin-bottom: 10px !important;
+  height: auto !important;
+  line-height: 2.3;
+  vertical-align: middle;
 }
 
 .home .post img{
@@ -688,7 +704,15 @@ div.col-sm{
   font-family: 'Comfortaa', Arial, Helvetica, sans-serif !important; 
   font-size: 16px !important;
   font-weight: bolder !important;
-  color: #0000E0;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-main-links:hover{
+  font-family: 'Comfortaa', Arial, Helvetica, sans-serif !important; 
+  font-size: 16px !important;
+  font-weight: bolder !important;
+  color: #0000E0 !important;
   text-decoration: none;
 }
 
@@ -702,6 +726,12 @@ div.col-sm{
 .footer-social-bott-links{
   font-size: 40px !important;
   margin-left: 30px;
+  /* color: white !important; */
+}
+a{
+  color: white !important;
+}
+a:hover{
   color: #0000E0 !important;
 }
 

@@ -28,7 +28,7 @@ class About extends Component {
              {/* comment */}
               <p className="about-main-buttn center">
                 <a class="btn about-button btn-primary" data-bs-toggle="collapse" href="#about-about" role="button" aria-expanded="false" aria-controls="about-about">
-                  More Info
+                  Info
                 </a>
 
               </p>
@@ -47,7 +47,7 @@ class About extends Component {
              
               <p className="about-main-buttn center">
                 <a class="btn about-button btn-primary" data-bs-toggle="collapse" href="#about-mission" role="button" aria-expanded="false" aria-controls="about-mission">
-                  More Info
+                  Info
                 </a>
 
               </p>
@@ -64,7 +64,7 @@ class About extends Component {
              
               <p className="about-main-buttn center">
                 <a class="btn btn-primary about-button" data-bs-toggle="collapse" href="#about-team" role="button" aria-expanded="false" aria-controls="about-team">
-                  More Info
+                  Info
                 </a>
 
               </p>

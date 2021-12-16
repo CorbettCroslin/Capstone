@@ -41,13 +41,13 @@ const Navbar = () => {
             <ul className="nav-links-sub">
               <li><Link className="nav-links nav-main-links" to="/">Home</Link></li>
               <li><DropdownButton id="dropdown" title="Where To Go">
-                <Dropdown.Item className="nav-drop-sub"><Link to='/fooddrink'>Food & Drinks</Link></Dropdown.Item>
-                <Dropdown.Item className="nav-drop-sub"><Link to='/entertainmentsports'>Entertainment & Sports</Link></Dropdown.Item>
-                <Dropdown.Item className="nav-drop-sub"><Link to='/artsmusic'>Arts & Music</Link></Dropdown.Item>
+                <Dropdown.Item className="nav-drop-sub"><Link className="nav-drop-links" to='/fooddrink'>Food & Drinks</Link></Dropdown.Item>
+                <Dropdown.Item className="nav-drop-sub"><Link className="nav-drop-links" to='/entertainmentsports'>Entertainment & Sports</Link></Dropdown.Item>
+                <Dropdown.Item className="nav-drop-sub"><Link className="nav-drop-links" to='/artsmusic'>Arts & Music</Link></Dropdown.Item>
               </DropdownButton></li>
               <li><DropdownButton id="dropdown2" title="Plan Your Trip">
-                <Dropdown.Item className="nav-drop-sub"><Link to='/lodging'>Lodging</Link></Dropdown.Item>
-                <Dropdown.Item className="nav-drop-sub"><Link to='/transport'>Transportation</Link></Dropdown.Item>
+                <Dropdown.Item className="nav-drop-sub"><Link className="nav-drop-links" to='/lodging'>Lodging</Link></Dropdown.Item>
+                <Dropdown.Item className="nav-drop-sub"><Link className="nav-drop-links" to='/transport'>Transportation</Link></Dropdown.Item>
               </DropdownButton></li>
               <li><Link className="nav-links nav-main-links" to="/contact">Contact</Link></li>
               <li><Link className="nav-links nav-main-links" to="/about">About</Link></li>
