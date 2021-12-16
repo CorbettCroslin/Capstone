@@ -599,15 +599,9 @@ img.card-img-top{
 
 /* -------- About -------- */
 
-
-/* .about-sub-collage{
-  background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F476044623087341203%2F&psig=AOvVaw3st2w9QyczCfNuxNkvZgra&ust=1638909154513000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKCi2cuC0PQCFQAAAAAdAAAAABAD);
-  background-position: 100%;
-  background-size: 60%;
-  max-height: 500px !important;
-  width: 100%;
-
-} */
+h2{
+  margin-left: 20px !important;
+}
 
 .contact-form{
   margin-top: 100px;
@@ -622,7 +616,7 @@ img.card-img-top{
 div.col-sm{
   margin-left: 3px;
   margin-right: 3px;
-  max-width: 260px !important;
+  max-width: 250px !important;
   height: auto;
 }
 .about-main-buttn{
